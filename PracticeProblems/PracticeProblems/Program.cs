@@ -30,9 +30,15 @@ namespace PracticeProblems
             //age.uday();
             //dOB.uday();
 
-            EncapsulationClass en = new EncapsulationClass();
-            en.SetBalance(1000);
-            en.GetBalance();
+            //EncapsulationClass en = new EncapsulationClass();
+            //en.SetBalance(1000);
+            //en.GetBalance();
+
+            Student a = new Student();
+            a.Person();
+            a.work();
+
+
             Console.ReadLine();
 
 
