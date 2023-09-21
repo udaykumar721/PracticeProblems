@@ -18,17 +18,21 @@ namespace PracticeProblems
             //childClass.DisplayAge();
             //childClass.Example();
             //Console.ReadLine();
-            OverloadParent overloadParent = new OverloadParent();
-            Console.WriteLine(overloadParent.Addition(4, 5));
-            Console.WriteLine(overloadParent.Addition(4, 5, 9));
-            Console.WriteLine(overloadParent.Addition(4, 5,9,6));
+            //OverloadParent overloadParent = new OverloadParent();
+            //Console.WriteLine(overloadParent.Addition(4, 5));
+            //Console.WriteLine(overloadParent.Addition(4, 5, 9));
+            //Console.WriteLine(overloadParent.Addition(4, 5,9,6));
             //Console.ReadLine();
-            OverrideClass1 overrideClass = new OverrideClass1();
-            age age = new age();
-            DOB dOB = new DOB();
-            overrideClass.uday();
-            age.uday();
-            dOB.uday();
+            //OverrideClass1 overrideClass = new OverrideClass1();
+            //age age = new age();
+            //DOB dOB = new DOB();
+            //overrideClass.uday();
+            //age.uday();
+            //dOB.uday();
+
+            EncapsulationClass en = new EncapsulationClass();
+            en.SetBalance(1000);
+            en.GetBalance();
             Console.ReadLine();
 
 
