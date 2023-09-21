@@ -46,11 +46,13 @@
     <Compile Include="AbstractClass.cs" />
     <Compile Include="ChildClass.cs" />
     <Compile Include="EncapsulationClass.cs" />
+    <Compile Include="MultiInheritance.cs" />
     <Compile Include="OverloadParent.cs" />
     <Compile Include="OverrideClass1.cs" />
     <Compile Include="ParentClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SingleInheritance.cs" />
     <Compile Include="TestClass.cs" />
   </ItemGroup>
   <ItemGroup>

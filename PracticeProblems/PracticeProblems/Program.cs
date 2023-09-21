@@ -34,10 +34,27 @@ namespace PracticeProblems
             //en.SetBalance(1000);
             //en.GetBalance();
 
-            Student a = new Student();
-            a.Person();
-            a.work();
+            //Student a = new Student();
+            //a.Person();
+            //a.work();
+            //Measurments obj = new Measurments();
+            //obj.Circle = "ball";
+            //obj.Height = "11 inch";
+            //obj.Square = "Box";
+            //obj.Width = "12 inch";
+            //obj.GetMeasurment();
+            //obj.Getshape();
 
+            Product obj = new Product();
+            obj.Height = "11";
+            obj.Width = "12";
+            obj.GetMeasurment();
+            obj.Circle = "circle";
+            obj.Square = "square";
+            obj.Getshape();
+            obj.Price = 100;
+            obj.Name = "name";
+            
 
             Console.ReadLine();
 
