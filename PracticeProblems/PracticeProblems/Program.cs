@@ -10,8 +10,13 @@ namespace PracticeProblems
     {
         static void Main(string[] args)
         {
-            TestClass test = new TestClass();
-            test.Demo();
+            //TestClass test = new TestClass();
+            //test.Demo();
+            //Console.ReadLine();
+            ChildClass childClass = new ChildClass();
+            childClass.ShowName();
+            childClass.DisplayAge();
+            childClass.Example();
             Console.ReadLine();
         }
     }
